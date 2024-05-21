@@ -1,0 +1,21 @@
+name: dev_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - xgboost
+  - scikit-learn
+  - scikit-optimize
+  - imbalanced-learn
+  - lightgbm
+  - pillow
+  - pip
+  - pip:
+      - azureml-defaults
+      - azureml-pipeline-steps
+      - azureml.widgets
+      - azureml-mlflow
+      - bayesian-optimization

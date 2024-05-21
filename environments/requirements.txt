@@ -1,0 +1,12 @@
+
+python==3.8
+numpy
+pandas
+matplotlib
+ipykernel
+pygit2
+joblib
+azureml-defaults
+azureml-pipeline-steps
+azure-storage-blob
+pretty_confusion_matrix

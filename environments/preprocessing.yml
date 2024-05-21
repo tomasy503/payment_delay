@@ -1,0 +1,16 @@
+name: dev_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - azureml-defaults
+      - azureml-pipeline-steps
+      - azureml.widgets
+      - mlflow
+      - azureml-mlflow

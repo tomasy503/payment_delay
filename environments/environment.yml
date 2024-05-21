@@ -1,0 +1,21 @@
+name: payment_delay
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.8
+  - jupyter
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - black
+# - pip:
+#   - azureml-defaults
+#   - azureml-pipeline-steps
+#   - azure-storage-blob
+#   - pretty-confusion-matrix
